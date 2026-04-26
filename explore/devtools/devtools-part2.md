@@ -1,0 +1,2 @@
+1. The bug was that result was adding two strings, which led to string concatenation instead of addition. This is due to how getElementById() works, as it always returns a string.
+2. I would fix it by wrapping num1 and num2 with the Number() function which converts strings to their number values.
